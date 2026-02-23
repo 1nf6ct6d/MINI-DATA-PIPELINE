@@ -1,0 +1,9 @@
+{
+  "base_url": "https://jsonplaceholder.typicode.com",
+  "endpoint": "posts",
+  "timeout": 5,
+  "retry_count": 3,
+  "raw_dir": "data/raw",
+  "clean_dir": "data/clean",
+  "csv_fields": ["userId", "id", "title"]
+}

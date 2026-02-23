@@ -1,2 +1,4 @@
+from .config import Config 
 def main():
-    print("mdpf: ok")
+    config = Config.load("config.json")
+    print(config)
